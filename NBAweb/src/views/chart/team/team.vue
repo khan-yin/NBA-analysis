@@ -148,7 +148,7 @@ const barTeamOption ={
 export default {
   data() { 
     return {
-      activeName: '1',
+      activeName: '2',
       categoryList:['场均得分','场均篮板','场均助攻','场均抢断','场均盖帽','场均失误'],
       clickeditem:0,
       playerOption: {},
