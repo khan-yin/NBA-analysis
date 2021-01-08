@@ -102,12 +102,12 @@ export const constantRoutes = [
     name: 'Predict',
     meta: { title: '赛事预测', icon: 'el-icon-s-help' },
     children: [
-      {
-        path: 'matchesrank',
-        name: 'Matchesrank',
-        component: () => import('@/views/predict/matchesrank/matchesrank'),
-        meta: { title: '排名预测', icon: 'table' }
-      },
+      // {
+      //   path: 'matchesrank',
+      //   name: 'Matchesrank',
+      //   component: () => import('@/views/predict/matchesrank/matchesrank'),
+      //   meta: { title: '排名预测', icon: 'table' }
+      // },
       {
         path: 'result',
         name: 'Result',

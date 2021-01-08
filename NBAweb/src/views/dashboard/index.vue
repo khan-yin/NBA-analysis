@@ -8,7 +8,7 @@
               <el-button type="text" icon="el-icon-arrow-left" style="font-size: 20px; color:#fff;"></el-button>
               <!-- <div style="margin-top: 9px; margin-bottom: 9px">《 </div> -->
               <div>
-                <span >{{currentDate.getMonth()+1}}月{{currentDate.getDate()}}</span>
+                <span >{{currentDate.getMonth()+1}}月{{currentDate.getDate()}}日</span>
                 <span >{{weekday[currentDate.getDay()]}}</span>
               </div>
               <el-button type="text" icon="el-icon-arrow-right" style="font-size: 20px; color:#fff;"></el-button>

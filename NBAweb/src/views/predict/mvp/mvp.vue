@@ -224,7 +224,7 @@ const careerPlayerOption={
           }
         }
       }, { 
-        min:25,// Secondary yAxis
+        min:23,// Secondary yAxis
         title: {
           text: '得分',
           style: {
